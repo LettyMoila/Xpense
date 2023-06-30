@@ -16,14 +16,14 @@ const Landing = () =>{
                 </section>
                 <section className="my-36 w-3/4">
                     <p className="text-left pl-1.5">Get a clear full view of your spendings and know where to save. Xpense
-                        is your "at the tip of your finger" financial planner.
+                        is the new "at the tip of your finger" financial planner.
                     </p>
                 </section>
                 <button className="my-3 rounded-2xl w-32 hover:ring-blue-500">Get started</button>
             </div>
             <div className="w-3/5 h-full bg-emerald-200">
                 <section className="flex gap-4 align-end">
-                    <button>Hi!</button>
+                    <button><span>&#128075</span>Hi!</button>
                     <Link to='/Login'>Login</Link>
                     <button onClick={handleClick}>Sign up</button>
                 </section>
