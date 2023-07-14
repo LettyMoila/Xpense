@@ -15,14 +15,14 @@ const Login = () =>{
                     <Link to="/"><img src={logo} className="w-10 h-10"/> </Link>
                 </div>
 
-                <div className='p-4'>
-                    <form className='grid gap-4'>
-                        <div className='grid grid-rows-2'>
-                            <label>username</label>
+                <div className='p-4 h-4/5 items-center justify-center'>
+                    <form className=' '>
+                        <div className=''> 
+                            <label>username</label><br/>
                             <input type='text' />
                         </div>
-                        <div className='grid grid-rows-2'>
-                            <label>password</label>
+                        <div className=' '>
+                            <label>password</label> <br/>
                             <input type='password' />
                         </div>
                         <div>
@@ -34,9 +34,7 @@ const Login = () =>{
                                 <button className='bg-emerald-500 w-40 rounded-2xl'>sign in</button>
                             </Link>
                         </div>
-                        <div>
-                         <hr/>
-                        </div>
+                            <hr/>
                         <div>
                             <h1>continue with:</h1>
                         </div>
