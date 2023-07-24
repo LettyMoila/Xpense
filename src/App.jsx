@@ -5,6 +5,8 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Home from './pages/Home'
 import Stats from './pages/Stats'
+import Search from './pages/Search'
+import Add from './pages/Add'
 import './App.css'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Route path="/Register" element={<Register/>}/>
       <Route path="/Home" element={<Home/>}/>
       <Route path="/Stats" element={<Stats/>}/>
+      <Route path="/Add" element={<Add/>}/>
+      <Route path="/Search" element={<Search/>}/>
     </Routes>
     </div>
   )

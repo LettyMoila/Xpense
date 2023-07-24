@@ -8,13 +8,15 @@ const Home = () =>{
         navi('/Stats')
     });
 
-    const add=(()=>{});
+    const add=(()=>{
+        <input type="text"/>
+    });
 
     return(
         <div className="h-screen w-screen bg-emerald-200">
             <Header/>
             <section className="flex gap-16 p-10 justify-center items-center h-4/5 ">
-                <div className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">add</div>
+                <div onClick={add} className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">add</div>
                 <div onClick={status} className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">view</div>
                 <div className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">search</div>
             </section>
