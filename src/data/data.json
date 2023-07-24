@@ -1,0 +1,14 @@
+[
+    {
+       "identity": 1,
+       "item": "dress",
+       "cost": "R100",
+       "date": "12-02-2023"
+    },
+    {
+       "identity": 2,
+       "item": "wrist-watch",
+       "cost": "R900",
+       "date": "14-02-2023"
+    }
+ ]
