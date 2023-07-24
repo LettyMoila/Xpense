@@ -13,10 +13,10 @@ const Home = () =>{
     return(
         <div className="h-screen w-screen bg-emerald-200">
             <Header/>
-            <section className="flex gap-16 p-10 justify-center items-center h-4/5">
-                <div className="h-80 w-80 bg-emerald-100 rounded-md">add</div>
-                <div onClick={status} className="h-80 w-80 bg-emerald-100 rounded-md">view</div>
-                <div className="h-80 w-80 bg-emerald-100 rounded-md">search</div>
+            <section className="flex gap-16 p-10 justify-center items-center h-4/5 ">
+                <div className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">add</div>
+                <div onClick={status} className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">view</div>
+                <div className="h-80 w-80 bg-emerald-100 rounded-md shadow-2xl">search</div>
             </section>
             
         </div>

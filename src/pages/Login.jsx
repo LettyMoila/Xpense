@@ -15,8 +15,8 @@ const Login = () =>{
                     <Link to="/"><img src={logo} className="w-10 h-10"/> </Link>
                 </div>
 
-                <div className='p-4 h-4/5 items-center justify-center'>
-                    <form className=' '>
+                <div className='p-4 h-4/5'>
+                    <form className='grid gap-6 h-full'>
                         <div className=''> 
                             <label>username</label><br/>
                             <input type='text' />
@@ -41,7 +41,7 @@ const Login = () =>{
                     </form>
                 </div>
             </section>
-            <section className="h-full w-2/5 bg-emerald-500 text-white p-9">
+            <section className="h-full w-2/5 bg-emerald-500 text-white p-10 grid ">
                 <h1>New Here?</h1>
                 <hr />
                 <p>Sign up and discover great amount of effective spending</p>
